@@ -18,5 +18,8 @@
     <ClCompile Include="rps.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test_rps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
