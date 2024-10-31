@@ -12,3 +12,9 @@ void test_determine_winner() {
 	assert(strcmp(determine_winner("Rock", "Paper"), "Player2") == 0);
 	assert(strcmp(determine_winner("Invalid", "Rock"), "Invalid") == 0);
 }
+
+int main() {
+	test_determine_winner();
+	printf("All tests passed!\n");
+	return 0;
+}
